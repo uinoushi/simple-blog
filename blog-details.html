@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="/">Brand Name</a>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Homepage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="card blog-listing mb-3">
+            <div class="card-header">01.05.17 Title 3</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante
+                </p>
+                <footer class="blockquote-footer">
+                  <a href="my-blogs.html">$author</a>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <div class="detailBox rounded">
+            <div class="titleBox rounded-top">
+              <label>Comments</label>
+            </div>
+
+            <div class="actionBox">
+              <ul class="list-unstyled">
+                <li class="d-flex mb-2">
+                  <div class="commenterImage">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  </div>
+                  <div class="commentText">
+                    <p>Hello this is a test comment.</p>
+                    <span class="date font-weight-light"
+                      >on March 5th, 2014</span
+                    >
+                  </div>
+                </li>
+                <li class="d-flex mb-2">
+                  <div class="commenterImage">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  </div>
+                  <div class="commentText">
+                    <p>Hello this is a test comment.</p>
+                    <span class="date font-weight-light"
+                      >on March 5th, 2014</span
+                    >
+                  </div>
+                </li>
+                <li class="d-flex mb-2">
+                  <div class="commenterImage">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  </div>
+                  <div class="commentText">
+                    <p>Hello this is a test comment.</p>
+                    <span class="date font-weight-light"
+                      >on March 5th, 2014</span
+                    >
+                  </div>
+                </li>
+              </ul>
+              <form role="form">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your comments"
+                  />
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-primary" type="button">
+                      Add
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="sticky-footer d-flex">
+        <span class="m-auto text-secondary">©2017 imprint</span>
+      </footer>
+    </div>
+  </body>
+</html>
